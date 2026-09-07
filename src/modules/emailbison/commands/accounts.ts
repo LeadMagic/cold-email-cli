@@ -17,7 +17,7 @@ export const accountCommands: CLICommand[] = [
   {
     name: "accounts:add",
     description: "Connect new email account with power settings",
-    usage: "accounts:add --email user@domain.com --provider gmail [--power-warmup true]",
+    usage: "accounts:add --email person@example.com --provider gmail [--power-warmup true]",
     category: "Power Email Accounts",
     handler: async (args) => {
       if (!args.email) {
@@ -48,7 +48,7 @@ export const accountCommands: CLICommand[] = [
   {
     name: "accounts:power-warmup",
     description: "Start advanced power warmup for email account",
-    usage: "accounts:power-warmup --email user@domain.com [--settings '{\"daily_increase\": 5}']",
+    usage: "accounts:power-warmup --email person@example.com [--settings '{\"daily_increase\": 5}']",
     category: "Power Email Accounts",
     handler: async (args) => {
       if (!args.email) {
@@ -71,7 +71,7 @@ export const accountCommands: CLICommand[] = [
   {
     name: "accounts:health",
     description: "Check email account health and deliverability",
-    usage: "accounts:health --email user@domain.com",
+    usage: "accounts:health --email person@example.com",
     category: "Power Email Accounts",
     handler: async (args) => {
       if (!args.email) {

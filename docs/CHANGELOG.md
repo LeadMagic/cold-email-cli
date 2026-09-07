@@ -221,9 +221,9 @@ This project follows [Semantic Versioning](https://semver.org/):
 For support, bug reports, or feature requests:
 - 🐛 **Issues**: [GitHub Issues](https://github.com/username/smartlead-cli/issues)
 - 💡 **Discussions**: [GitHub Discussions](https://github.com/username/smartlead-cli/discussions)
-- 📧 **Email**: support@smartlead-cli.com
+- 📧 **Email**: person@example.com
 - 📚 **Documentation**: [README.md](README.md)
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines. 
+See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.

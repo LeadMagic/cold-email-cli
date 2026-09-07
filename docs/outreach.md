@@ -52,7 +52,7 @@ bun run outreach leads:bulk-add --campaign_id 123 --file leads.csv
 bun run outreach templates:create --name "Follow-up" --subject "Quick follow-up"
 
 # Account warmup
-bun run outreach accounts:warmup-start --email sales@company.com
+bun run outreach accounts:warmup-start --email person@example.com
 ```
 
 ## API Integration

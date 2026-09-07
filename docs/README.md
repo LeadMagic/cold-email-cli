@@ -368,12 +368,12 @@ sequences:add-step \
 ```bash
 # Connect sending accounts
 accounts:connect \
-  --email sender1@company.com \
+  --email person@example.com \
   --provider gmail \
   --daily-limit 30
 
 accounts:connect \
-  --email sender2@company.com \
+  --email person@example.com \
   --provider outlook \
   --daily-limit 30
 

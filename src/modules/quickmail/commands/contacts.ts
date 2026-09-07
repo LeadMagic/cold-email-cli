@@ -24,7 +24,7 @@ export const contactCommands: CLICommand[] = [
     name: "contacts:create",
     description: "➕ Create new contact",
     usage:
-      'contacts:create --email "john@company.com" [--first_name "John"] [--last_name "Doe"] [--company "ACME Inc"]',
+      'contacts:create --email "person@example.com" [--first_name "John"] [--last_name "Doe"] [--company "ACME Inc"]',
     category: "👥 Contact Management",
     handler: async (args) => {
       if (!args.email) throw new Error("Required: --email");
@@ -97,7 +97,7 @@ export const contactCommands: CLICommand[] = [
   {
     name: "contacts:bulk-create",
     description: "📦 Create multiple contacts at once",
-    usage: 'contacts:bulk-create --contacts \'[{"email":"john@company.com","first_name":"John"}]\'',
+    usage: 'contacts:bulk-create --contacts \'[{"email":"person@example.com","first_name":"John"}]\'',
     category: "👥 Contact Management",
     handler: async (args) => {
       if (!args.contacts) throw new Error("Required: --contacts (JSON array)");
@@ -119,7 +119,7 @@ export const contactCommands: CLICommand[] = [
     name: "contacts:import",
     description: "📁 Import contacts from CSV",
     usage:
-      'contacts:import --csv_data "email,first_name\\njohn@company.com,John" --mapping \'{"email":"email","first_name":"first_name"}\'',
+      'contacts:import --csv_data "email,first_name\\nperson@example.com,John" --mapping \'{"email":"email","first_name":"first_name"}\'',
     category: "👥 Contact Management",
     handler: async (args) => {
       if (!args.csv_data || !args.mapping) throw new Error("Required: --csv_data, --mapping");

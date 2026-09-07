@@ -52,7 +52,7 @@ bun run amplemarket leads:bulk-add --campaign_id 123 --file leads.csv
 bun run amplemarket templates:create --name "Follow-up" --subject "Quick follow-up"
 
 # Account warmup
-bun run amplemarket accounts:warmup-start --email sales@company.com
+bun run amplemarket accounts:warmup-start --email person@example.com
 ```
 
 ## API Integration

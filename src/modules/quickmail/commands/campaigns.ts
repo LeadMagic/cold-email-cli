@@ -24,7 +24,7 @@ export const campaignCommands: CLICommand[] = [
     name: "campaigns:create",
     description: "➕ Create new email campaign",
     usage:
-      'campaigns:create --name "Campaign Name" --subject "Email Subject" --from_name "John Doe" --from_email "john@company.com"',
+      'campaigns:create --name "Campaign Name" --subject "Email Subject" --from_name "John Doe" --from_email "person@example.com"',
     category: "🌊 Campaign Management",
     handler: async (args) => {
       if (!args.name || !args.subject || !args.from_name || !args.from_email) {

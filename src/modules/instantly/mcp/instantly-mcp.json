@@ -208,7 +208,7 @@
       "command": "instantly_accounts",
       "parameters": {
         "action": "vitals",
-        "email": "sales@company.com"
+        "email": "person@example.com"
       }
     },
     {

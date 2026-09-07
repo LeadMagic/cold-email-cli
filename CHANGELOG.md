@@ -1,5 +1,10 @@
 # Changelog
 
+## Public-content privacy review — 2026-09-06
+
+Use synthetic contact examples, remove unnecessary identity and credential-like samples, and clarify publication, attribution, and claims requirements.
+
+
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
@@ -12,7 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 #### Added
 - **Multi-Platform Integration** - Support for 4 major cold email platforms:
   - smartlead.ai (82+ commands) - Advanced Campaign Management & Analytics
-  - instantly.ai (35+ commands) - High-Volume Automation & Deliverability  
+  - instantly.ai (35+ commands) - High-Volume Automation & Deliverability
   - salesforge.ai (12+ commands) - AI-Powered Cold Email Automation
   - apollo.io (6+ commands) - Professional Email Sequencing & Outreach
 - **React Ink Interface** - Beautiful terminal UI with React components
@@ -44,7 +49,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 #### Development
 - **ESLint Configuration** - Code quality enforcement
-- **Prettier Integration** - Consistent code formatting  
+- **Prettier Integration** - Consistent code formatting
 - **Git Hooks** - Automated linting and testing
 - **CI/CD Ready** - GitHub Actions workflow support
 - **Mac App Bundle** - Native macOS application packaging
@@ -65,7 +70,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### 🎯 Commands Overview
 - **Campaign Operations** - Create, manage, analyze campaigns
-- **Lead Operations** - Import, search, segment prospects  
+- **Lead Operations** - Import, search, segment prospects
 - **Account Operations** - Connect, monitor email accounts
 - **Analytics Operations** - Performance metrics and reports
 - **Template Operations** - Email template management
@@ -96,4 +101,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for development workflow and guidelines.
 
 ## License
 
-This project is licensed under the MIT License - see [LICENSE](LICENSE) for details. 
+This project is licensed under the MIT License - see [LICENSE](LICENSE) for details.

@@ -27,7 +27,7 @@ export const leadCommands: CLICommand[] = [
   {
     name: "leads:search",
     description: "🔍 Search leads by email address",
-    usage: "leads:search --email john@domain.com",
+    usage: "leads:search --email person@example.com",
     category: "👥 Lead Management",
     handler: async (args) => {
       if (!args.email) throw new Error("Required: --email");
@@ -40,7 +40,7 @@ export const leadCommands: CLICommand[] = [
     name: "leads:add",
     description: "➕ Add leads to campaign",
     usage:
-      'leads:add --campaign_id campaign_id --leads \'[{"first_name":"John","last_name":"Doe","email":"john@domain.com","company_name":"ACME Inc"}]\'',
+      'leads:add --campaign_id campaign_id --leads \'[{"first_name":"John","last_name":"Doe","email":"person@example.com","company_name":"ACME Inc"}]\'',
     category: "👥 Lead Management",
     handler: async (args) => {
       if (!args.campaign_id || !args.leads) throw new Error("Required: --campaign_id, --leads");
@@ -255,7 +255,7 @@ export const leadCommands: CLICommand[] = [
   {
     name: "leads:blocklist",
     description: "🚫 Manage global block list",
-    usage: 'leads:blocklist --action add --domains \'["spam@domain.com", "badcompany.com"]\' [--client_id 123]',
+    usage: 'leads:blocklist --action add --domains \'["person@example.com", "badcompany.com"]\' [--client_id 123]',
     category: "👥 Lead Management",
     handler: async (args) => {
       if (args.action === "add") {
@@ -276,7 +276,7 @@ export const leadCommands: CLICommand[] = [
       } else {
         console.log("🚫 Global Block List Management");
         console.log("Available actions: add");
-        console.log('Usage: leads:blocklist --action add --domains \'["email@domain.com", "domain.com"]\'');
+        console.log('Usage: leads:blocklist --action add --domains \'["person@example.com", "domain.com"]\'');
       }
     },
   },

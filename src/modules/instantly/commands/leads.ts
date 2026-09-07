@@ -56,7 +56,7 @@ export const leadCommands: CLICommand[] = [
   {
     name: "leads:verify",
     description: "✅ Verify lead email addresses",
-    usage: "leads:verify --email email@domain.com",
+    usage: "leads:verify --email person@example.com",
     category: "🎯 Lead Management",
     handler: async (args) => {
       if (!args.email) throw new Error("Required: --email");
@@ -169,7 +169,7 @@ export const leadCommands: CLICommand[] = [
   {
     name: "leads:verification-result",
     description: "📊 Get email verification result",
-    usage: "leads:verification-result --email email@domain.com",
+    usage: "leads:verification-result --email person@example.com",
     category: "🎯 Lead Management",
     handler: async (args) => {
       if (!args.email) throw new Error("Required: --email");

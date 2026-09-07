@@ -311,7 +311,7 @@
         "name": "Q1 Outreach",
         "subject": "Partnership Opportunity",
         "from_name": "John Doe",
-        "from_email": "john@company.com",
+        "from_email": "person@example.com",
         "track_opens": true,
         "track_clicks": true
       }

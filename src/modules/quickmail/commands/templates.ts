@@ -171,7 +171,7 @@ export const templateCommands: CLICommand[] = [
         custom_field_3: "Sample Value 3",
         unsubscribe_link: "https://example.com/unsubscribe",
         sender_name: "Your Name",
-        sender_email: "you@yourcompany.com",
+        sender_email: "person@example.com",
       };
 
       if (args.sample_data) {

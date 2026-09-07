@@ -213,7 +213,7 @@ export const sequenceCommands: CLICommand[] = [
     name: "sequences:contacts:add",
     description: "Add contacts to a sequence",
     usage:
-      'sequences:contacts:add --sequence_id <id> --contacts \'[{"email":"john@company.com","first_name":"John","last_name":"Doe"}]\'',
+      'sequences:contacts:add --sequence_id <id> --contacts \'[{"email":"person@example.com","first_name":"John","last_name":"Doe"}]\'',
     category: "Email Sequences",
     handler: async (args) => {
       if (!args.sequence_id || !args.contacts) {

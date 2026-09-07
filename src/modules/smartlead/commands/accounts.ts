@@ -37,7 +37,7 @@ export const accountCommands: CLICommand[] = [
     name: "accounts:add",
     description: "➕ Connect new email account",
     usage:
-      'accounts:add --from_name "John Doe" --from_email "john@domain.com" --username "john@domain.com" --password "pass" --smtp_host "smtp.gmail.com" --smtp_port 465 --imap_host "imap.gmail.com" --imap_port 993 --max_email_per_day 100',
+      'accounts:add --from_name "John Doe" --from_email "person@example.com" --username "person@example.com" --password "pass" --smtp_host "smtp.gmail.com" --smtp_port 465 --imap_host "imap.gmail.com" --imap_port 993 --max_email_per_day 100',
     category: "📧 Email Accounts",
     handler: async (args) => {
       if (!args.from_email || !args.from_name) throw new Error("Required: --from_email, --from_name");
@@ -275,7 +275,7 @@ export const accountCommands: CLICommand[] = [
   {
     name: "accounts:bcc",
     description: "📧 Manage BCC settings",
-    usage: "accounts:bcc --id account_id [--bcc_email backup@domain.com]",
+    usage: "accounts:bcc --id account_id [--bcc_email person@example.com]",
     category: "📧 Email Accounts",
     handler: async (args) => {
       if (!args.id) throw new Error("Required: --id");

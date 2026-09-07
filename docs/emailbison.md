@@ -52,7 +52,7 @@ bun run emailbison leads:bulk-add --campaign_id 123 --file leads.csv
 bun run emailbison templates:create --name "Follow-up" --subject "Quick follow-up"
 
 # Account warmup
-bun run emailbison accounts:warmup-start --email sales@company.com
+bun run emailbison accounts:warmup-start --email person@example.com
 ```
 
 ## API Integration

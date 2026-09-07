@@ -92,7 +92,7 @@ DEFAULT_MODULE=smartlead
 # =============================================================================
 
 # For SmartLead users:
-# SMARTLEAD_API_KEY=sl_abc123def456ghi789jkl012
+# SMARTLEAD_API_KEY=<WEBHOOK_SECRET>
 # SMARTLEAD_BASE_URL=https://server.smartlead.ai/api/v1
 
 # For development:
@@ -127,4 +127,4 @@ DEFAULT_MODULE=smartlead
 # 2. Edit .env with your actual values
 # 3. Configure SmartLead: smartlead config
 # 4. Test connection: smartlead show-config
-# 5. Start using: smartlead modules 
+# 5. Start using: smartlead modules

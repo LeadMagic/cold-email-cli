@@ -37,7 +37,7 @@ export const contactCommands: CLICommand[] = [
   {
     name: "contacts:get-by-email",
     description: "📧 Get contact details by email",
-    usage: "contacts:get-by-email --email user@domain.com",
+    usage: "contacts:get-by-email --email person@example.com",
     category: "👤 Contact Management",
     handler: async (args) => {
       if (!args.email) {

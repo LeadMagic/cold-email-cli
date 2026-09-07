@@ -19,7 +19,7 @@ export const accountCommands: CLICommand[] = [
     name: "accounts:create",
     description: "➕ Add new email account",
     usage:
-      'accounts:create --email "john@company.com" --password "password" --smtp_host "smtp.gmail.com" --smtp_port 465 --imap_host "imap.gmail.com" --imap_port 993',
+      'accounts:create --email "person@example.com" --password "password" --smtp_host "smtp.gmail.com" --smtp_port 465 --imap_host "imap.gmail.com" --imap_port 993',
     category: "📧 Email Account Management",
     handler: async (args) => {
       if (!args.email || !args.password || !args.smtp_host || !args.smtp_port || !args.imap_host || !args.imap_port) {

@@ -17,7 +17,7 @@ export const accountCommands: CLICommand[] = [
   {
     name: "accounts:add",
     description: "Connect new email account",
-    usage: "accounts:add --email user@domain.com --password pass",
+    usage: "accounts:add --email person@example.com --password pass",
     category: "Email Accounts",
     handler: async (args) => {
       if (!args.email) throw new Error("Required: --email");
@@ -28,7 +28,7 @@ export const accountCommands: CLICommand[] = [
   {
     name: "accounts:verify",
     description: "Verify email account connection",
-    usage: "accounts:verify --email user@domain.com",
+    usage: "accounts:verify --email person@example.com",
     category: "Email Accounts",
     handler: async (args) => {
       if (!args.email) throw new Error("Required: --email");
@@ -40,7 +40,7 @@ export const accountCommands: CLICommand[] = [
   {
     name: "accounts:warmup:start",
     description: "Start email warmup process",
-    usage: "accounts:warmup:start --email user@domain.com [--ramp_up_rate 5]",
+    usage: "accounts:warmup:start --email person@example.com [--ramp_up_rate 5]",
     category: "Email Accounts",
     handler: async (args) => {
       if (!args.email) throw new Error("Required: --email");
@@ -52,7 +52,7 @@ export const accountCommands: CLICommand[] = [
   {
     name: "accounts:warmup:stop",
     description: "Stop email warmup process",
-    usage: "accounts:warmup:stop --email user@domain.com",
+    usage: "accounts:warmup:stop --email person@example.com",
     category: "Email Accounts",
     handler: async (args) => {
       if (!args.email) throw new Error("Required: --email");
@@ -64,7 +64,7 @@ export const accountCommands: CLICommand[] = [
   {
     name: "accounts:warmup:status",
     description: "Check warmup progress",
-    usage: "accounts:warmup:status --email user@domain.com",
+    usage: "accounts:warmup:status --email person@example.com",
     category: "Email Accounts",
     handler: async (args) => {
       if (!args.email) throw new Error("Required: --email");
@@ -76,7 +76,7 @@ export const accountCommands: CLICommand[] = [
   {
     name: "accounts:limits:set",
     description: "Set daily sending limits",
-    usage: "accounts:limits:set --email user@domain.com --daily_limit 100",
+    usage: "accounts:limits:set --email person@example.com --daily_limit 100",
     category: "Email Accounts",
     handler: async (args) => {
       if (!args.email || !args.daily_limit) {
@@ -90,7 +90,7 @@ export const accountCommands: CLICommand[] = [
   {
     name: "accounts:health",
     description: "Check account health metrics",
-    usage: "accounts:health --email user@domain.com",
+    usage: "accounts:health --email person@example.com",
     category: "Email Accounts",
     handler: async (args) => {
       if (!args.email) throw new Error("Required: --email");
@@ -102,7 +102,7 @@ export const accountCommands: CLICommand[] = [
   {
     name: "accounts:blacklist:check",
     description: "Check if account is blacklisted",
-    usage: "accounts:blacklist:check --email user@domain.com",
+    usage: "accounts:blacklist:check --email person@example.com",
     category: "Email Accounts",
     handler: async (args) => {
       if (!args.email) throw new Error("Required: --email");
@@ -114,7 +114,7 @@ export const accountCommands: CLICommand[] = [
   {
     name: "accounts:remove",
     description: "Remove email account",
-    usage: "accounts:remove --email user@domain.com",
+    usage: "accounts:remove --email person@example.com",
     category: "Email Accounts",
     handler: async (args) => {
       if (!args.email) throw new Error("Required: --email");

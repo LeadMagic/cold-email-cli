@@ -400,3 +400,7 @@ MIT License - see [LICENSE](LICENSE) for details.
 ---
 
 *Built with ❤️ by the Cold Email Community • Last updated: 2025-06-19*
+
+## Public examples and publication
+
+Examples are fictional unless an explicit public source is cited. See [PUBLICATION.md](PUBLICATION.md) for data, claims, attribution, and disclosure requirements.

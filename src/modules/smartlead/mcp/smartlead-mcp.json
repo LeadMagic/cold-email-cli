@@ -357,8 +357,8 @@
         "action": "bulk-add",
         "campaign_id": "123",
         "leads": [
-          { "email": "john@company.com", "first_name": "John", "company": "ACME Corp" },
-          { "email": "jane@startup.com", "first_name": "Jane", "company": "StartupXYZ" }
+          { "email": "person@example.com", "first_name": "John", "company": "ACME Corp" },
+          { "email": "person@example.com", "first_name": "Jane", "company": "StartupXYZ" }
         ]
       }
     },
@@ -368,7 +368,7 @@
       "command": "smartlead_accounts",
       "parameters": {
         "action": "warmup-start",
-        "email": "sales@company.com",
+        "email": "person@example.com",
         "daily_limit": 30
       }
     },

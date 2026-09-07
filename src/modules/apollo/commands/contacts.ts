@@ -36,7 +36,7 @@ export const contactCommands: CLICommand[] = [
   {
     name: "contacts:create",
     description: "Create a new contact",
-    usage: 'contacts:create --email john@company.com --first_name John --last_name Doe [--company "Company Name"]',
+    usage: 'contacts:create --email person@example.com --first_name John --last_name Doe [--company "Company Name"]',
     category: "Contacts",
     handler: async (args) => {
       if (!args.email) {

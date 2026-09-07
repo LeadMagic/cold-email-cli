@@ -263,7 +263,7 @@ const leads = await mcp.call('smartlead_lead_add', {
   campaignId: campaign.id,
   leads: [
     {
-      email: 'john@company.com',
+      email: 'person@example.com',
       firstName: 'John',
       lastName: 'Doe',
       companyName: 'Acme Corp'

@@ -23,7 +23,7 @@ export const outreachCommands: CLICommand[] = [
     name: "outreaches:create",
     description: "➕ Create new outreach sequence",
     usage:
-      'outreaches:create --name "Sequence Name" --subject "Email Subject" --body "Email body" --from_name "John" --from_email "john@company.com"',
+      'outreaches:create --name "Sequence Name" --subject "Email Subject" --body "Email body" --from_name "John" --from_email "person@example.com"',
     category: "🔄 Outreach Sequences",
     handler: async (args) => {
       if (!args.name || !args.subject || !args.body || !args.from_name || !args.from_email) {
