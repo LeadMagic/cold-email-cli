@@ -9,3 +9,7 @@ Third-party dependencies, copied assets, and excerpts retain their own licenses 
 An integration with a third-party service does not imply ownership of that service or endorsement by its provider. Repository licensing does not grant access to hosted services, API credentials, or customer data; service access is governed separately.
 
 Before distributing a bundled build, review the licenses of the dependencies and assets actually included in that artifact. Report a missing attribution or licensing concern to [support@leadmagic.io](mailto:support@leadmagic.io), with the affected file and public source.
+
+## Project attribution
+
+The original project identifies LeadMagic as its sponsor. This attribution is preserved here separately from the standard MIT license text.
